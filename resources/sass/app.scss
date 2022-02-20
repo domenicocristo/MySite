@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    color: #fff;
+    span {
+        font-size: 30px;
+        margin-right: 50px;
+    }
+}
+
+#posts {
+    position: relative;
+    z-index: 0;
+    ul {
+        list-style-type: none;
+    }
+    #image-posts {
+        width: 100%;
+    } 
+    #text-posts {
+        position: absolute;
+        bottom: 100px;
+        left: 20px;
+        color: #fff;
+    }
+}
+
+#create-posts {
+    margin: 70px;
+}
