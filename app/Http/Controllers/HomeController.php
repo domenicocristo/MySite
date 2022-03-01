@@ -12,5 +12,13 @@ class HomeController extends Controller
     $posts = Post::all();
 
     return view('pages.home', compact('posts'));
-}
+  }
+
+  public function register_btn() {
+    return view('pages.register_btn');
+  }
+
+  public function login_btn() {
+    return view('pages.login_btn');
+  }
 }

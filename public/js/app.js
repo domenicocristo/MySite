@@ -1923,6 +1923,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -37528,26 +37537,31 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    { attrs: { id: "posts" } },
-    _vm._l(_vm.posts, function (post) {
-      return _c("ul", { key: post.id }, [
-        _c("li", { attrs: { id: "text-posts" } }, [
-          _c("h1", [_vm._v(_vm._s(post.title))]),
-          _vm._v(" "),
-          _c("p", [_vm._v(_vm._s(post.text))]),
-        ]),
-        _vm._v(" "),
-        _c("li", { attrs: { id: "image-posts" } }, [
-          post.image
-            ? _c("img", { attrs: { src: "/storage/asset/" + post.image } })
-            : _c("p", [_vm._v("no image")]),
-        ]),
-      ])
-    }),
-    0
-  )
+  return _c("div", { attrs: { id: "container" } }, [
+    _c("section", { attrs: { id: "container" } }),
+    _vm._v(" "),
+    _c("section", { attrs: { id: "posts" } }, [
+      _c(
+        "ul",
+        _vm._l(_vm.posts, function (post) {
+          return _c("li", { key: post.id, attrs: { id: post.id } }, [
+            _c("div", { staticClass: "text-post" }, [
+              _c("h1", [_vm._v(_vm._s(post.title))]),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(post.text))]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-post" }, [
+              post.image
+                ? _c("img", { attrs: { src: "/storage/asset/" + post.image } })
+                : _c("p", [_vm._v("no image")]),
+            ]),
+          ])
+        }),
+        0
+      ),
+    ]),
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

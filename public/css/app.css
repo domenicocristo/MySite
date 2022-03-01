@@ -10983,25 +10983,36 @@ header {
   color: #fff;
 }
 
+header a {
+  color: #fff;
+}
+
 header span {
   font-size: 30px;
   margin-right: 50px;
 }
 
 #posts {
-  position: relative;
   z-index: 0;
 }
 
 #posts ul {
   list-style-type: none;
+  margin: 0;
 }
 
-#posts #image-posts {
+#posts ul li {
+  position: relative;
+}
+
+#posts ul li .image-post img {
+  height: 100vh;
   width: 100%;
+  overflow: hidden;
+  margin: 0;
 }
 
-#posts #text-posts {
+#posts ul li .text-post {
   position: absolute;
   bottom: 100px;
   left: 20px;

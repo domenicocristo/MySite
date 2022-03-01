@@ -1,6 +1,6 @@
 @extends('layouts.main-layout')
 @section('content')
-    @guest
+    {{-- @guest
         <h2>Registrazione</h2>
         <form action="{{ route('register') }}" method="POST">
             @method('POST')
@@ -16,9 +16,9 @@
             <input type="password" name="password_confirmation"><br>
             <br>
             <button type="submit" class="btn btn-success">REGISTER</button>
-        </form>
+        </form> --}}
 
-        <br><hr><br>
+        {{-- <br><hr><br>
 
         <h2>Login</h2>
         <form action="{{ route('login') }}" method="POST">
@@ -31,7 +31,7 @@
             <input type="password" name="password"><br>
             <br>
             <button type="submit" class="btn btn-success">LOGIN</button>
-        </form>
-    @endguest
+        </form> 
+    @endguest  --}}
     <post-component></post-component>
 @endsection

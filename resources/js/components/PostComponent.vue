@@ -1,16 +1,25 @@
 <template>
-    <section id="posts">
-        <ul v-for="post in posts" :key="post.id">
-            <li id="text-posts">
-                <h1>{{ post.title }}</h1>
-                <p>{{ post.text }}</p>
-            </li>
-            <li id="image-posts">
-                <img v-if="post.image" :src="`/storage/asset/` + post.image">
-                <p v-else>no image</p>
-            </li>
-        </ul>
-    </section>
+    <div id="container">
+        <section id="container">
+
+        </section>
+
+        <section id="posts">
+            <ul>
+                <li :id="post.id" v-for="post in posts" :key="post.id">
+                    <div class="text-post">
+                        <h1>{{ post.title }}</h1>
+                        <p>{{ post.text }}</p>
+                    </div>
+
+                    <div class="image-post">
+                        <img v-if="post.image" :src="`/storage/asset/` + post.image">
+                        <p v-else>no image</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
 </template>
 
 <script>
