@@ -15,7 +15,5 @@
     </form>
 
     <a class="btn btn-primary" href="{{ route('register_btn') }}">REGISTER</a>
-
-    <a class="btn btn-secondary" href="{{url('/')}}">BACK TO HOME</a>
     @endguest
 @endsection

@@ -1,18 +1,26 @@
 <header>
-    <span>DOMENICO CRISTO</span>
+    <div id="l-header">
+        <a href="/">
+            <img src="/storage/asset/logo.png" alt="logo">
+        </a>
+    </div>
 
-    <a href="#7">ESPERIENZE</a>
-    <a href="#8">FORMAZIONE</a>
+    <div id="c-header">
+        <a href="#jumbotron">INTRO</a>
+        <a href="#12">ESPERIENZE</a>
+        <a href="#13">FORMAZIONE</a>
+        <a href="#footer">CONTACT ME</a>
+    </div>
     @auth
-    <div>
-        <a class="btn btn-danger" href="{{ route('logout') }}">LOGOUT</a>
-        <a class="btn btn-primary" href="{{ route('create') }}">CREATE</a>
+    <div class="r-header">
+        <a id="btn-logout" class="btn-header" href="{{ route('logout') }}">LOGOUT</a>
+        <a id="btn-create" class="btn-header" href="{{ route('create') }}">CREATE</a>
     </div>
     @endauth
 
     @guest
-        <div>
-            <a class="btn btn-success" href="{{ route('login_btn') }}">LOGIN</a>
+        <div class="r-header">
+            <a id="btn-login" class="btn-header" href="{{ route('login_btn') }}">LOGIN</a>
         </div>
     @endguest
 </header>

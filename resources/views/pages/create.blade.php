@@ -29,8 +29,6 @@
         
         <input class="btn btn-primary" type="submit" value="CREATE"><br>
 
-        <br><hr><br>
-
-        <a class="btn btn-secondary" href="{{url('/')}}">BACK TO HOME</a>
+        <br><hr><br>        
     </form>
 @endsection

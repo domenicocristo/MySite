@@ -1,0 +1,19 @@
+footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    #contacts {
+        padding-top: 200px;
+        h1 {
+            margin-bottom: 20px;
+            color: #00de6b;
+        }
+        a,
+        i {
+            padding-left: 5px;
+            color: #fff;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    }
+}

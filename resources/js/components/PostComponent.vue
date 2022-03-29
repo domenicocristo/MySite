@@ -1,7 +1,13 @@
 <template>
     <div id="container">
-        <section id="container">
-
+        <section id="jumbotron">
+            <div id="text-jumbotron">
+                <h1>Hi,</h1>
+                <h1>I'm Domenico,</h1>
+                <h1>Full-Stack Web Developer</h1>
+                <p>HTML CSS JavaScript PHP</p>
+                <a id="btn-jumbotron" href="#footer">CONTACT ME</a>
+            </div>
         </section>
 
         <section id="posts">

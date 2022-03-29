@@ -1932,6 +1932,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -37538,7 +37544,7 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "container" } }, [
-    _c("section", { attrs: { id: "container" } }),
+    _vm._m(0),
     _vm._v(" "),
     _c("section", { attrs: { id: "posts" } }, [
       _c(
@@ -37563,7 +37569,28 @@ var render = function () {
     ]),
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "jumbotron" } }, [
+      _c("div", { attrs: { id: "text-jumbotron" } }, [
+        _c("h1", [_vm._v("Hi,")]),
+        _vm._v(" "),
+        _c("h1", [_vm._v("I'm Domenico,")]),
+        _vm._v(" "),
+        _c("h1", [_vm._v("Full-Stack Web Developer")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("HTML CSS JavaScript PHP")]),
+        _vm._v(" "),
+        _c("a", { attrs: { id: "btn-jumbotron", href: "#footer" } }, [
+          _vm._v("CONTACT ME"),
+        ]),
+      ]),
+    ])
+  },
+]
 render._withStripped = true
 
 

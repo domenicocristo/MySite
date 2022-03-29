@@ -1,0 +1,22 @@
+#jumbotron {
+    height: 100vh;
+    background-color: #000;
+    #text-jumbotron {
+        padding: 200px 0 0 50px;
+        h1 {
+            font-size: 100px;
+            color: #fff;
+            margin-bottom: 0;
+        }
+        p {
+            margin: 20px 0 50px 0;
+            color: #ff385c;
+        }
+        #btn-jumbotron {
+            border: 1px solid #00de6b;
+            color: #00de6b;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+    }
+}
