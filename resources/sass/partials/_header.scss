@@ -29,6 +29,12 @@ header {
             border: 1px solid #fff;
         }
     }
+    #c-header {
+        a:hover {
+            text-decoration: none;
+            color: #ff385c;
+        }
+    }
     .r-header {
         #btn-login {
             border: 1px solid #00de6b;

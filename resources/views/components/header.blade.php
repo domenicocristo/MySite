@@ -7,8 +7,8 @@
 
     <div id="c-header">
         <a href="#jumbotron">INTRO</a>
-        <a href="#12">ESPERIENZE</a>
-        <a href="#13">FORMAZIONE</a>
+        <a href="#12">EXPERIENCES</a>
+        <a href="#13">FORMATION</a>
         <a href="#footer">CONTACT ME</a>
     </div>
     @auth

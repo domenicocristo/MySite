@@ -5,8 +5,14 @@
                 <h1>Hi,</h1>
                 <h1>I'm Domenico,</h1>
                 <h1>Full-Stack Web Developer</h1>
-                <p>HTML CSS JavaScript PHP</p>
+                <p>HTML - CSS - JAVASCRIPT - PHP</p>
                 <a id="btn-jumbotron" href="#footer">CONTACT ME</a>
+
+                <div class="container-scroll">
+                    <div class="field">
+                        <div class="scroll"></div>
+                    </div>
+                </div>
             </div>
         </section>
 
